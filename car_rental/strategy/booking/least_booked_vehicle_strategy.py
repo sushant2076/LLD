@@ -1,7 +1,7 @@
 from typing import List, Optional
 
-from examples.car_rental.model.vehicle import Vehicle
-from examples.car_rental.strategy.booking.booking_strategy import BookingStrategy
+from car_rental.model.vehicle import Vehicle
+from car_rental.strategy.booking.booking_strategy import BookingStrategy
 
 
 class LeastBookedVehicleStrategy(BookingStrategy):

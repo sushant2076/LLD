@@ -2,9 +2,9 @@ import threading
 import time
 from typing import Dict
 
-from examples.rate_limiter.enums import RateLimitType
-from examples.rate_limiter.limiter.base import RateLimiter
-from examples.rate_limiter.model import RateLimitConfig
+from rate_limiter.enums import RateLimitType
+from rate_limiter.limiter.base import RateLimiter
+from rate_limiter.model import RateLimitConfig
 
 
 class TokenBucketRateLimiter(RateLimiter):

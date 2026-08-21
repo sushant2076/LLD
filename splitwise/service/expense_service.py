@@ -1,12 +1,12 @@
 """ExpenseService: creates an Expense using the appropriate SplitStrategy and
 records it against the group's balance sheets."""
 
-from examples.splitwise.enums.split_type import SplitType
-from examples.splitwise.factory.split_strategy_factory import SplitStrategyFactory
-from examples.splitwise.model.expense import Expense
-from examples.splitwise.model.group import Group
-from examples.splitwise.model.user import User
-from examples.splitwise.service.balance_sheet_service import BalanceSheetService
+from splitwise.enums.split_type import SplitType
+from splitwise.factory.split_strategy_factory import SplitStrategyFactory
+from splitwise.model.expense import Expense
+from splitwise.model.group import Group
+from splitwise.model.user import User
+from splitwise.service.balance_sheet_service import BalanceSheetService
 
 
 class ExpenseService:

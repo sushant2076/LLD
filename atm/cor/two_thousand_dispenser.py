@@ -1,7 +1,7 @@
 from typing import Optional
 
-from examples.atm.cor.cash_dispenser import CashDispenser
-from examples.atm.model.atm import ATM
+from atm.cor.cash_dispenser import CashDispenser
+from atm.model.atm import ATM
 
 
 class TwoThousandDispenser(CashDispenser):

@@ -1,7 +1,7 @@
 from typing import Dict, Optional
 
-from examples.atm.enums.atm_status import ATMStatus
-from examples.atm.model.atm import ATM
+from atm.enums.atm_status import ATMStatus
+from atm.model.atm import ATM
 
 
 class ATMRepository:

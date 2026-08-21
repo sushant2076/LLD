@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from examples.rate_limiter.enums import UserTier
+from rate_limiter.enums import UserTier
 
 
 @dataclass(frozen=True)

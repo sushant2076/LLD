@@ -1,6 +1,6 @@
 """BalanceSheet model: tracks how much a single user paid/owes/is owed."""
 
-from examples.splitwise.model.user import User
+from splitwise.model.user import User
 
 _EPSILON = 1e-6
 

@@ -1,7 +1,7 @@
 import uuid
 from collections import deque
 
-from examples.doctors_appointment.model.booking import Booking
+from doctors_appointment.model.booking import Booking
 
 
 class BookingRepository:

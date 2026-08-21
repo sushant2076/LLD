@@ -1,9 +1,9 @@
 from typing import Dict
 
-from examples.rate_limiter.enums import RateLimitType, UserTier
-from examples.rate_limiter.factory import RateLimiterFactory
-from examples.rate_limiter.limiter import RateLimiter
-from examples.rate_limiter.model import RateLimitConfig, User
+from rate_limiter.enums import RateLimitType, UserTier
+from rate_limiter.factory import RateLimiterFactory
+from rate_limiter.limiter import RateLimiter
+from rate_limiter.model import RateLimitConfig, User
 
 
 class RateLimiterService:

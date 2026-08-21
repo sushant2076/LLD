@@ -1,6 +1,6 @@
 from typing import Dict, List, Optional
 
-from examples.car_rental.model.booking import Booking
+from car_rental.model.booking import Booking
 
 
 class BookingRepository:

@@ -1,6 +1,6 @@
-from examples.car_rental.enums.payment_status import PaymentStatus
-from examples.car_rental.model.booking import Booking
-from examples.car_rental.strategy.payment.payment_strategy import PaymentStrategy
+from car_rental.enums.payment_status import PaymentStatus
+from car_rental.model.booking import Booking
+from car_rental.strategy.payment.payment_strategy import PaymentStrategy
 
 
 class PaymentProcessor:

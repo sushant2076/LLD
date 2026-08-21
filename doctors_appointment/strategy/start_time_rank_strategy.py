@@ -1,6 +1,6 @@
-from examples.doctors_appointment.dto.doctor_slot import DoctorSlot
-from examples.doctors_appointment.strategy.slot_rank_strategy import SlotRankStrategy
-from examples.doctors_appointment.utils.utils import convert_string_to_local_time
+from doctors_appointment.dto.doctor_slot import DoctorSlot
+from doctors_appointment.strategy.slot_rank_strategy import SlotRankStrategy
+from doctors_appointment.utils.utils import convert_string_to_local_time
 
 
 class StartTimeRankStrategy(SlotRankStrategy):

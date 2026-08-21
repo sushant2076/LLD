@@ -1,9 +1,9 @@
 """PercentageSplitStrategy: splits the amount according to per-user percentages
 supplied via ``metadata`` (which must sum to 100)."""
 
-from examples.splitwise.model.split import Split
-from examples.splitwise.model.user import User
-from examples.splitwise.strategy.split_strategy import SplitStrategy
+from splitwise.model.split import Split
+from splitwise.model.user import User
+from splitwise.strategy.split_strategy import SplitStrategy
 
 
 class PercentageSplitStrategy(SplitStrategy):

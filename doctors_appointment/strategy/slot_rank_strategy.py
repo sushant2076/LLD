@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from examples.doctors_appointment.dto.doctor_slot import DoctorSlot
+from doctors_appointment.dto.doctor_slot import DoctorSlot
 
 
 class SlotRankStrategy(ABC):

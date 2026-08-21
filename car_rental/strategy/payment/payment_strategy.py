@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from examples.car_rental.model.booking import Booking
+from car_rental.model.booking import Booking
 
 
 class PaymentStrategy(ABC):

@@ -1,11 +1,11 @@
 from typing import TYPE_CHECKING
 
-from examples.atm.enums.atm_status import ATMStatus
-from examples.atm.model.card import Card
-from examples.atm.state.atm_state import ATMState
+from atm.enums.atm_status import ATMStatus
+from atm.model.card import Card
+from atm.state.atm_state import ATMState
 
 if TYPE_CHECKING:
-    from examples.atm.service.atm_machine import ATMMachine
+    from atm.service.atm_machine import ATMMachine
 
 
 class IdleState(ATMState):
@@ -16,7 +16,7 @@ class IdleState(ATMState):
 
     def insert_card(self, card: Card) -> None:
         # Local import to avoid a circular import with card_inserted_state.
-        from examples.atm.state.card_inserted_state import CardInsertedState
+        from atm.state.card_inserted_state import CardInsertedState
 
         self.atm_machine.current_card = card
         print("Card inserted.")

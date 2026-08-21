@@ -4,17 +4,17 @@ Exercises adding an expense with each split type (equal, percentage, exact)
 and prints the resulting balances.
 """
 
-from examples.splitwise.enums.split_type import SplitType
-from examples.splitwise.model.user import User
-from examples.splitwise.repository.in_memory_group_repository import (
+from splitwise.enums.split_type import SplitType
+from splitwise.model.user import User
+from splitwise.repository.in_memory_group_repository import (
     InMemoryGroupRepository,
 )
-from examples.splitwise.service.balance_sheet_service import BalanceSheetService
-from examples.splitwise.service.debt_simplification_service import (
+from splitwise.service.balance_sheet_service import BalanceSheetService
+from splitwise.service.debt_simplification_service import (
     DebtSimplificationService,
 )
-from examples.splitwise.service.expense_service import ExpenseService
-from examples.splitwise.service.group_service import GroupService
+from splitwise.service.expense_service import ExpenseService
+from splitwise.service.group_service import GroupService
 
 
 def main() -> None:

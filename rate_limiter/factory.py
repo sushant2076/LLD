@@ -1,11 +1,11 @@
-from examples.rate_limiter.enums import RateLimitType
-from examples.rate_limiter.limiter import (
+from rate_limiter.enums import RateLimitType
+from rate_limiter.limiter import (
     FixedWindowRateLimiter,
     RateLimiter,
     SlidingWindowLogRateLimiter,
     TokenBucketRateLimiter,
 )
-from examples.rate_limiter.model import RateLimitConfig
+from rate_limiter.model import RateLimitConfig
 
 
 class RateLimiterFactory:

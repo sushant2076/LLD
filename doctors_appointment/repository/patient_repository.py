@@ -1,6 +1,6 @@
 import uuid
 
-from examples.doctors_appointment.model.patient import Patient
+from doctors_appointment.model.patient import Patient
 
 
 class PatientRepository:

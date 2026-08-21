@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from examples.atm.model.account import Account
+from atm.model.account import Account
 
 
 @dataclass(frozen=True)

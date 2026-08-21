@@ -1,7 +1,7 @@
-from examples.atm.cor.cash_dispenser import CashDispenser
-from examples.atm.cor.five_hundred_dispenser import FiveHundredDispenser
-from examples.atm.cor.one_hundred_dispenser import OneHundredDispenser
-from examples.atm.cor.two_thousand_dispenser import TwoThousandDispenser
+from atm.cor.cash_dispenser import CashDispenser
+from atm.cor.five_hundred_dispenser import FiveHundredDispenser
+from atm.cor.one_hundred_dispenser import OneHundredDispenser
+from atm.cor.two_thousand_dispenser import TwoThousandDispenser
 
 
 class CashDispenserChainBuilder:

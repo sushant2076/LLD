@@ -1,11 +1,11 @@
 import uuid
 
-from examples.doctors_appointment.enums.specialization import Specialization
-from examples.doctors_appointment.exception.doctor_not_found_exception import (
+from doctors_appointment.enums.specialization import Specialization
+from doctors_appointment.exception.doctor_not_found_exception import (
     DoctorNotFoundException,
 )
-from examples.doctors_appointment.model.doctor import Doctor
-from examples.doctors_appointment.repository.doctor_repository import (
+from doctors_appointment.model.doctor import Doctor
+from doctors_appointment.repository.doctor_repository import (
     DoctorRepository,
 )
 

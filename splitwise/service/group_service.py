@@ -3,14 +3,14 @@ expenses, simplify debts and print balances."""
 
 import uuid
 
-from examples.splitwise.enums.split_type import SplitType
-from examples.splitwise.model.group import Group
-from examples.splitwise.model.user import User
-from examples.splitwise.repository.group_repository import GroupRepository
-from examples.splitwise.service.debt_simplification_service import (
+from splitwise.enums.split_type import SplitType
+from splitwise.model.group import Group
+from splitwise.model.user import User
+from splitwise.repository.group_repository import GroupRepository
+from splitwise.service.debt_simplification_service import (
     DebtSimplificationService,
 )
-from examples.splitwise.service.expense_service import ExpenseService
+from splitwise.service.expense_service import ExpenseService
 
 
 class GroupService:

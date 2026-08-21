@@ -6,9 +6,9 @@ EQUAL and PERCENTAGE) but is added here for completeness, following the same
 Strategy-pattern shape as its siblings.
 """
 
-from examples.splitwise.model.split import Split
-from examples.splitwise.model.user import User
-from examples.splitwise.strategy.split_strategy import SplitStrategy
+from splitwise.model.split import Split
+from splitwise.model.user import User
+from splitwise.strategy.split_strategy import SplitStrategy
 
 _EPSILON = 1e-6
 

@@ -1,5 +1,5 @@
-from examples.doctors_appointment.dto.doctor_slot import DoctorSlot
-from examples.doctors_appointment.strategy.slot_rank_strategy import SlotRankStrategy
+from doctors_appointment.dto.doctor_slot import DoctorSlot
+from doctors_appointment.strategy.slot_rank_strategy import SlotRankStrategy
 
 
 class RatingBasedRankStrategy(SlotRankStrategy):

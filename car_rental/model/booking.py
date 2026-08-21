@@ -3,11 +3,11 @@ from dataclasses import dataclass, field
 from datetime import datetime
 from typing import Optional
 
-from examples.car_rental.enums.booking_status import BookingStatus
-from examples.car_rental.enums.payment_status import PaymentStatus
-from examples.car_rental.model.branch import Branch
-from examples.car_rental.model.user import User
-from examples.car_rental.model.vehicle import Vehicle
+from car_rental.enums.booking_status import BookingStatus
+from car_rental.enums.payment_status import PaymentStatus
+from car_rental.model.branch import Branch
+from car_rental.model.user import User
+from car_rental.model.vehicle import Vehicle
 
 
 @dataclass

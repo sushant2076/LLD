@@ -2,18 +2,18 @@ import threading
 from datetime import datetime
 from typing import Optional
 
-from examples.car_rental.enums.booking_status import BookingStatus
-from examples.car_rental.enums.vehicle_status import VehicleStatus
-from examples.car_rental.enums.vehicle_type import VehicleType
-from examples.car_rental.model.booking import Booking
-from examples.car_rental.model.branch import Branch
-from examples.car_rental.model.user import User
-from examples.car_rental.repository.booking_repository import BookingRepository
-from examples.car_rental.repository.branch_repository import BranchRepository
-from examples.car_rental.service.payment_processor import PaymentProcessor
-from examples.car_rental.strategy.booking.booking_strategy import BookingStrategy
-from examples.car_rental.strategy.payment.payment_strategy import PaymentStrategy
-from examples.car_rental.strategy.pricing.pricing_strategy import PricingStrategy
+from car_rental.enums.booking_status import BookingStatus
+from car_rental.enums.vehicle_status import VehicleStatus
+from car_rental.enums.vehicle_type import VehicleType
+from car_rental.model.booking import Booking
+from car_rental.model.branch import Branch
+from car_rental.model.user import User
+from car_rental.repository.booking_repository import BookingRepository
+from car_rental.repository.branch_repository import BranchRepository
+from car_rental.service.payment_processor import PaymentProcessor
+from car_rental.strategy.booking.booking_strategy import BookingStrategy
+from car_rental.strategy.payment.payment_strategy import PaymentStrategy
+from car_rental.strategy.pricing.pricing_strategy import PricingStrategy
 
 
 class BookingService:

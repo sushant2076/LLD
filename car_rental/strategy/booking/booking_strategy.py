@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import List, Optional
 
-from examples.car_rental.model.vehicle import Vehicle
+from car_rental.model.vehicle import Vehicle
 
 
 class BookingStrategy(ABC):

@@ -1,10 +1,10 @@
 import uuid
 
-from examples.doctors_appointment.exception.patient_not_found_exception import (
+from doctors_appointment.exception.patient_not_found_exception import (
     PatientNotFoundException,
 )
-from examples.doctors_appointment.model.patient import Patient
-from examples.doctors_appointment.repository.patient_repository import (
+from doctors_appointment.model.patient import Patient
+from doctors_appointment.repository.patient_repository import (
     PatientRepository,
 )
 

@@ -7,26 +7,26 @@ the booked vehicle to its drop branch.
 
 import threading
 
-from examples.car_rental.enums.vehicle_type import VehicleType
-from examples.car_rental.factory.vehicle_factory import VehicleFactory
-from examples.car_rental.model.branch import Branch
-from examples.car_rental.model.user import User
-from examples.car_rental.repository.booking_repository import BookingRepository
-from examples.car_rental.repository.branch_repository import BranchRepository
-from examples.car_rental.service.booking_service import BookingService
-from examples.car_rental.strategy.booking.least_booked_vehicle_strategy import (
+from car_rental.enums.vehicle_type import VehicleType
+from car_rental.factory.vehicle_factory import VehicleFactory
+from car_rental.model.branch import Branch
+from car_rental.model.user import User
+from car_rental.repository.booking_repository import BookingRepository
+from car_rental.repository.branch_repository import BranchRepository
+from car_rental.service.booking_service import BookingService
+from car_rental.strategy.booking.least_booked_vehicle_strategy import (
     LeastBookedVehicleStrategy,
 )
-from examples.car_rental.strategy.payment.credit_card_payment_strategy import (
+from car_rental.strategy.payment.credit_card_payment_strategy import (
     CreditCardPaymentStrategy,
 )
-from examples.car_rental.strategy.payment.wallet_payment_strategy import (
+from car_rental.strategy.payment.wallet_payment_strategy import (
     WalletPaymentStrategy,
 )
-from examples.car_rental.strategy.pricing.hourly_pricing_strategy import (
+from car_rental.strategy.pricing.hourly_pricing_strategy import (
     HourlyPricingStrategy,
 )
-from examples.car_rental.utils.date_time_parser import DateTimeParser
+from car_rental.utils.date_time_parser import DateTimeParser
 
 
 def main() -> None:

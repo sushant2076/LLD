@@ -1,7 +1,7 @@
 """InMemoryGroupRepository: a dict-backed GroupRepository implementation."""
 
-from examples.splitwise.model.group import Group
-from examples.splitwise.repository.group_repository import GroupRepository
+from splitwise.model.group import Group
+from splitwise.repository.group_repository import GroupRepository
 
 
 class InMemoryGroupRepository(GroupRepository):

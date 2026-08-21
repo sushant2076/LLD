@@ -2,8 +2,8 @@
 
 from abc import ABC, abstractmethod
 
-from examples.splitwise.model.split import Split
-from examples.splitwise.model.user import User
+from splitwise.model.split import Split
+from splitwise.model.user import User
 
 
 class SplitStrategy(ABC):

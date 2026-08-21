@@ -1,7 +1,7 @@
 import uuid
 from dataclasses import dataclass, field
 
-from examples.doctors_appointment.enums.specialization import Specialization
+from doctors_appointment.enums.specialization import Specialization
 
 
 @dataclass

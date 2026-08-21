@@ -1,8 +1,8 @@
 """BalanceSheetService: updates per-user balance sheets after an expense is split."""
 
-from examples.splitwise.model.group import Group
-from examples.splitwise.model.split import Split
-from examples.splitwise.model.user import User
+from splitwise.model.group import Group
+from splitwise.model.split import Split
+from splitwise.model.user import User
 
 
 class BalanceSheetService:

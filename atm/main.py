@@ -1,8 +1,8 @@
-from examples.atm.model.account import Account
-from examples.atm.model.atm import ATM
-from examples.atm.model.card import Card
-from examples.atm.repository.atm_repository import ATMRepository
-from examples.atm.service.atm_machine import ATMMachine
+from atm.model.account import Account
+from atm.model.atm import ATM
+from atm.model.card import Card
+from atm.repository.atm_repository import ATMRepository
+from atm.service.atm_machine import ATMMachine
 
 
 def demo() -> None:

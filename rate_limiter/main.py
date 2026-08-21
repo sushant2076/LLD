@@ -1,10 +1,10 @@
 import threading
 import time
 
-from examples.rate_limiter.enums import RateLimitType, UserTier
-from examples.rate_limiter.factory import RateLimiterFactory
-from examples.rate_limiter.model import RateLimitConfig, User
-from examples.rate_limiter.service import RateLimiterService
+from rate_limiter.enums import RateLimitType, UserTier
+from rate_limiter.factory import RateLimiterFactory
+from rate_limiter.model import RateLimitConfig, User
+from rate_limiter.service import RateLimiterService
 
 
 def check_concurrency(rate_limiter_service: RateLimiterService) -> None:

@@ -1,8 +1,8 @@
 from typing import List, Optional
 
-from examples.car_rental.enums.pricing_strategy_type import PricingStrategyType
-from examples.car_rental.model.vehicle import Vehicle
-from examples.car_rental.strategy.booking.booking_strategy import BookingStrategy
+from car_rental.enums.pricing_strategy_type import PricingStrategyType
+from car_rental.model.vehicle import Vehicle
+from car_rental.strategy.booking.booking_strategy import BookingStrategy
 
 
 class CheapestBookingStrategy(BookingStrategy):

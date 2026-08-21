@@ -1,8 +1,8 @@
 from datetime import datetime
 from typing import List
 
-from examples.car_rental.enums.booking_status import BookingStatus
-from examples.car_rental.model.booking import Booking
+from car_rental.enums.booking_status import BookingStatus
+from car_rental.model.booking import Booking
 
 
 class VehicleAvailabilityChecker:

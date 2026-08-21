@@ -2,9 +2,9 @@
 
 from dataclasses import dataclass, field
 
-from examples.splitwise.enums.split_type import SplitType
-from examples.splitwise.model.split import Split
-from examples.splitwise.model.user import User
+from splitwise.enums.split_type import SplitType
+from splitwise.model.split import Split
+from splitwise.model.user import User
 
 
 @dataclass(frozen=True)

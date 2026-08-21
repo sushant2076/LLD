@@ -1,17 +1,17 @@
-from examples.doctors_appointment.enums.specialization import Specialization
-from examples.doctors_appointment.repository.booking_repository import (
+from doctors_appointment.enums.specialization import Specialization
+from doctors_appointment.repository.booking_repository import (
     BookingRepository,
 )
-from examples.doctors_appointment.repository.doctor_repository import (
+from doctors_appointment.repository.doctor_repository import (
     DoctorRepository,
 )
-from examples.doctors_appointment.repository.patient_repository import (
+from doctors_appointment.repository.patient_repository import (
     PatientRepository,
 )
-from examples.doctors_appointment.service.booking_service import BookingService
-from examples.doctors_appointment.service.doctor_service import DoctorService
-from examples.doctors_appointment.service.patient_service import PatientService
-from examples.doctors_appointment.strategy.start_time_rank_strategy import (
+from doctors_appointment.service.booking_service import BookingService
+from doctors_appointment.service.doctor_service import DoctorService
+from doctors_appointment.service.patient_service import PatientService
+from doctors_appointment.strategy.start_time_rank_strategy import (
     StartTimeRankStrategy,
 )
 

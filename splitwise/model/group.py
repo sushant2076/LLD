@@ -1,8 +1,8 @@
 """Group model: a collection of users sharing expenses."""
 
-from examples.splitwise.model.balance_sheet import BalanceSheet
-from examples.splitwise.model.expense import Expense
-from examples.splitwise.model.user import User
+from splitwise.model.balance_sheet import BalanceSheet
+from splitwise.model.expense import Expense
+from splitwise.model.user import User
 
 
 class Group:

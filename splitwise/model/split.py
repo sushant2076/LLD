@@ -2,7 +2,7 @@
 
 from dataclasses import dataclass
 
-from examples.splitwise.model.user import User
+from splitwise.model.user import User
 
 
 @dataclass

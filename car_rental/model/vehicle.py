@@ -1,8 +1,8 @@
 import threading
 from abc import ABC
 
-from examples.car_rental.enums.vehicle_status import VehicleStatus
-from examples.car_rental.enums.vehicle_type import VehicleType
+from car_rental.enums.vehicle_status import VehicleStatus
+from car_rental.enums.vehicle_type import VehicleType
 
 
 class AtomicBoolean:

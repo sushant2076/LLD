@@ -1,12 +1,12 @@
 from typing import TYPE_CHECKING
 
-from examples.atm.cor.cash_dispenser_chain_builder import CashDispenserChainBuilder
-from examples.atm.enums.atm_status import ATMStatus
-from examples.atm.model.card import Card
-from examples.atm.state.atm_state import ATMState
+from atm.cor.cash_dispenser_chain_builder import CashDispenserChainBuilder
+from atm.enums.atm_status import ATMStatus
+from atm.model.card import Card
+from atm.state.atm_state import ATMState
 
 if TYPE_CHECKING:
-    from examples.atm.service.atm_machine import ATMMachine
+    from atm.service.atm_machine import ATMMachine
 
 
 class DispenseCashState(ATMState):
@@ -58,7 +58,7 @@ class DispenseCashState(ATMState):
             self.eject_card()
 
     def eject_card(self) -> None:
-        from examples.atm.state.idle_state import IdleState
+        from atm.state.idle_state import IdleState
 
         self.atm_machine.current_card = None
         print("Card ejected.")

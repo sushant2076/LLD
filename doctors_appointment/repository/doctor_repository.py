@@ -1,7 +1,7 @@
 import uuid
 
-from examples.doctors_appointment.enums.specialization import Specialization
-from examples.doctors_appointment.model.doctor import Doctor
+from doctors_appointment.enums.specialization import Specialization
+from doctors_appointment.model.doctor import Doctor
 
 
 class DoctorRepository:

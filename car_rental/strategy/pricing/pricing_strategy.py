@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from datetime import datetime
 
-from examples.car_rental.model.vehicle import Vehicle
+from car_rental.model.vehicle import Vehicle
 
 
 class PricingStrategy(ABC):

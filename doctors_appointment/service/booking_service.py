@@ -1,21 +1,21 @@
 import uuid
 
-from examples.doctors_appointment.dto.doctor_slot import DoctorSlot
-from examples.doctors_appointment.enums.specialization import Specialization
-from examples.doctors_appointment.exception.booking_not_found_exception import (
+from doctors_appointment.dto.doctor_slot import DoctorSlot
+from doctors_appointment.enums.specialization import Specialization
+from doctors_appointment.exception.booking_not_found_exception import (
     BookingNotFoundException,
 )
-from examples.doctors_appointment.model.booking import Booking
-from examples.doctors_appointment.repository.booking_repository import (
+from doctors_appointment.model.booking import Booking
+from doctors_appointment.repository.booking_repository import (
     BookingRepository,
 )
-from examples.doctors_appointment.repository.doctor_repository import (
+from doctors_appointment.repository.doctor_repository import (
     DoctorRepository,
 )
-from examples.doctors_appointment.repository.patient_repository import (
+from doctors_appointment.repository.patient_repository import (
     PatientRepository,
 )
-from examples.doctors_appointment.strategy.slot_rank_strategy import (
+from doctors_appointment.strategy.slot_rank_strategy import (
     SlotRankStrategy,
 )
 

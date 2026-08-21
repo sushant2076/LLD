@@ -1,8 +1,8 @@
 """EqualSplitStrategy: splits the amount evenly across all participants."""
 
-from examples.splitwise.model.split import Split
-from examples.splitwise.model.user import User
-from examples.splitwise.strategy.split_strategy import SplitStrategy
+from splitwise.model.split import Split
+from splitwise.model.user import User
+from splitwise.strategy.split_strategy import SplitStrategy
 
 
 class EqualSplitStrategy(SplitStrategy):

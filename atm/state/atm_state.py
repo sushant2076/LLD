@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
-from examples.atm.enums.atm_status import ATMStatus
-from examples.atm.model.card import Card
+from atm.enums.atm_status import ATMStatus
+from atm.model.card import Card
 
 
 class ATMState(ABC):

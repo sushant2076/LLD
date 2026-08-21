@@ -1,8 +1,8 @@
 import math
 from datetime import datetime
 
-from examples.car_rental.model.vehicle import Vehicle
-from examples.car_rental.strategy.pricing.pricing_strategy import PricingStrategy
+from car_rental.model.vehicle import Vehicle
+from car_rental.strategy.pricing.pricing_strategy import PricingStrategy
 
 
 class HourlyPricingStrategy(PricingStrategy):

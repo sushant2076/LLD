@@ -1,4 +1,4 @@
-from examples.atm.enums.atm_status import ATMStatus
+from atm.enums.atm_status import ATMStatus
 
 
 class ATM:

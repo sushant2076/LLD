@@ -1,10 +1,10 @@
 from typing import Optional
 
-from examples.atm.factory.atm_state_factory import ATMStateFactory
-from examples.atm.model.atm import ATM
-from examples.atm.model.card import Card
-from examples.atm.repository.atm_repository import ATMRepository
-from examples.atm.state.atm_state import ATMState
+from atm.factory.atm_state_factory import ATMStateFactory
+from atm.model.atm import ATM
+from atm.model.card import Card
+from atm.repository.atm_repository import ATMRepository
+from atm.state.atm_state import ATMState
 
 
 class ATMMachine:

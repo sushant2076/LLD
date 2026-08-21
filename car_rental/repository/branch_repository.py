@@ -1,6 +1,6 @@
 from typing import Dict, Optional
 
-from examples.car_rental.model.branch import Branch
+from car_rental.model.branch import Branch
 
 
 class BranchRepository:

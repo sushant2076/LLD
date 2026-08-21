@@ -1,8 +1,8 @@
 from collections import defaultdict
 from typing import Dict, List
 
-from examples.car_rental.enums.vehicle_type import VehicleType
-from examples.car_rental.model.vehicle import Vehicle
+from car_rental.enums.vehicle_type import VehicleType
+from car_rental.model.vehicle import Vehicle
 
 
 class Branch:

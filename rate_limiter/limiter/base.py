@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
-from examples.rate_limiter.enums import RateLimitType
-from examples.rate_limiter.model import RateLimitConfig
+from rate_limiter.enums import RateLimitType
+from rate_limiter.model import RateLimitConfig
 
 
 class RateLimiter(ABC):

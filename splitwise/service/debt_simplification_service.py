@@ -4,8 +4,8 @@ group down to a minimal set of settle-up transactions."""
 import heapq
 import itertools
 
-from examples.splitwise.model.group import Group
-from examples.splitwise.model.user import User
+from splitwise.model.group import Group
+from splitwise.model.user import User
 
 
 class DebtSimplificationService:

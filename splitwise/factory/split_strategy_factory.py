@@ -1,12 +1,12 @@
 """SplitStrategyFactory: maps a SplitType to its SplitStrategy implementation."""
 
-from examples.splitwise.enums.split_type import SplitType
-from examples.splitwise.strategy.equal_split_strategy import EqualSplitStrategy
-from examples.splitwise.strategy.exact_split_strategy import ExactSplitStrategy
-from examples.splitwise.strategy.percentage_split_strategy import (
+from splitwise.enums.split_type import SplitType
+from splitwise.strategy.equal_split_strategy import EqualSplitStrategy
+from splitwise.strategy.exact_split_strategy import ExactSplitStrategy
+from splitwise.strategy.percentage_split_strategy import (
     PercentageSplitStrategy,
 )
-from examples.splitwise.strategy.split_strategy import SplitStrategy
+from splitwise.strategy.split_strategy import SplitStrategy
 
 
 class SplitStrategyFactory:

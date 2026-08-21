@@ -2,7 +2,7 @@
 
 from abc import ABC, abstractmethod
 
-from examples.splitwise.model.group import Group
+from splitwise.model.group import Group
 
 
 class GroupRepository(ABC):
